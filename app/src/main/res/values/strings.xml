@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">笑脸矿业</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!--登录-->
+    <string name="mining_title">挖矿</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="sign_in">登录</string>
+    <string name="register">注册</string>
+    <string name="oldpassword">原密码</string>
+    <string name="inputoldpassword">请输入原密码</string>
+    <string name="newpassword">新密码</string>
+    <string name="mobile_phone">请输入您的手机号</string>
+    <string name="message_code">请输入短信验证码</string>
+    <string name="send_message_code">发送验证码</string>
+    <string name="input_pwd">请输入6-16位密码</string>
+    <string name="set_pwd">请设置6-16位密码</string>
+    <string name="input_pwd_again">请再次输入密码</string>
+    <string name="invitation_code">邀请码(选填)</string>
+    <string name="next">下一步</string>
+    <string name="determine">确定</string>
+    <string name="agreement">点击下一步表示您已阅读并同意《用户协议》</string>
+    <string name="forget_password_title">忘记密码？</string>
+    <string name="input_yanzhen_code">请输入验证码</string>
+    <!--算力-->
+    <!--钱包-->
+    <!--main-->
+    <string name="main_a">矿池</string>
+    <string name="main_b">算力</string>
+    <string name="main_c">钱包</string>
+    <string name="main_d">我的</string>
+
+    <!--刷新-->
+    <string name="listfooterview_normal">查看更多</string>
+    <string name="listfooterview_ready">松开载入更多</string>
+
+
+    <!--我的-->
+    <string name="person">个人中心</string>
+    <string name="uid">UID</string>
+    <string name="user_name">用户名</string>
+    <string name="email">邮件</string>
+    <string name="money">红包</string>
+    <string name="exit_login">退出登录</string>
+    <string name="langage">语言选择</string>
+    <string name="clean">清除缓存</string>
+    <string name="inva_money">邀请返佣</string>
+    <string name="mobile">手机号</string>
+    <string name="updatepwd">修改密码</string>
+    <string name="use">使用</string>
+    <string name="update_mobile">修改手机号</string>
+    <string name="mobile_number">手机号码</string>
+    <string name="old_mobile">输入原手机号码</string>
+    <string name="new_mobile">输入新手机号码</string>
+    <string name="inputmorenumber">请输入6位以上新密码</string>
+    <string name="code">验证码</string>
+    <string name="input_code">输入手机验证码</string>
+    <string name="send_code">发送验证码</string>
+    <string name="ok">确认</string>
+    <string name="save_set">安全设置</string>
+    <string name="upadte_pwd">修改登录密码</string>
+    <string name="shiming">实名验证</string>
+    <string name="no_shiming">未实名</string>
+    <string name="login_history">登录历史</string>
+    <string name="time">时间</string>
+    <string name="ip">IP</string>
+    <string name="address">位置</string>
+    <string name="emos">设备</string>
+    <string name="yanzheng">实名验证</string>
+    <string name="a">请手持身份证拍照上传</string>
+    <string name="b">示例</string>
+    <string name="c">请上传身份证正面（国徽面）</string>
+    <string name="d">请上传身份证反面（人像面）</string>
+    <string name="e">身份证号</string>
+    <string name="f">输入身份证号码</string>
+    <string name="g">真实姓名</string>
+    <string name="h">请输入真实姓名</string>
+    <string name="i">确认</string>
+    <string name="j">为保障您的账户安全，需要进行身份验证，一旦认证无法修改，请仔细填写您的真实信息</string>
+    <string name="k">收款方式</string>
+    <string name="l">银行卡</string>
+    <string name="m">请输入持卡人姓名</string>
+    <string name="n">请输入银行卡卡号</string>
+    <string name="o">银行卡开户行</string>
+    <string name="p">完成</string>
+    <string name="q">请选择银行卡</string>
+    <string name="r">支付宝</string>
+    <string name="s">请输入支付宝账号</string>
+    <string name="t">请上传支付宝收款码照片</string>
+    <string name="u">微信</string>
+    <string name="v">请输微信账号</string>
+    <string name="w">请上传微信收款码照片</string>
+    <string name="x">邀请好友交易可获手续</string>
+    <string name="y">累计返佣金</string>
+    <string name="z">(折合)</string>
+    <string name="a2">刚刚你朋友张三一注册成功</string>
+    <string name="b2">类别</string>
+    <string name="c2">算力佣金</string>
+    <string name="d2">资金划转</string>
+    <string name="e2">分享佣金</string>
+    <string name="f2">详细</string>
+    <string name="g2">提现</string>
+    <string name="h2">邀请人数</string>
+    <string name="i2">团队人数</string>
+    <string name="j2">邀请说明</string>
+    <string name="k2">1.您的好友注册后，每次购买矿机将会返一个佣金15%，好友每天挖币的10%做为挖矿佣金</string>
+    <string name="l2">马上邀请好友加入</string>
+    <string name="m2">生成专属海报</string>
+    <string name="n2">挖矿返佣</string>
+    <string name="o2">分享佣金</string>
+    <string name="p2">划转</string>
+    <string name="q2">划转记录</string>
+    <string name="r2">算力佣金</string>
+    <string name="s2">钱包</string>
+    <string name="t2">币种</string>
+    <string name="u2">数量</string>
+    <string name="v2">请输入划转数量</string>
+    <string name="w2">全部提现</string>
+    <string name="x2">划转</string>
+    <string name="y2">划转记录</string>
+    <string name="z2">无更多信息</string>
+    <string name="a3">提现</string>
+    <string name="b3">提现记录</string>
+    <string name="c3">提币记录</string>
+    <string name="d3">分享专属海报</string>
+    <string name="e3">提交工单</string>
+    <string name="f3">工单标题</string>
+    <string name="g3">请输入原手机号码</string>
+    <string name="h3">选择类型</string>
+    <string name="i3">反馈内容</string>
+    <string name="j3">请描述你需要反馈的内容</string>
+    <string name="k3">查看</string>
+    <string name="l3">提交</string>
+    <string name="m3">未处理</string>
+    <string name="n3">已处理</string>
+    <string name="o3">无更多信息</string>
+    <string name="p3">关于我们</string>
+    <string name="q3">官方微信</string>
+    <string name="r3">官方网址</string>
+    <string name="s3">客服邮箱</string>
+    <string name="t3">合作邮箱</string>
+    <string name="u3">消息中心</string>
+    <string name="v3">关于钱包</string>
+    <string name="w3">挖矿团队</string>
+    <string name="x3">输入您需要反馈的标题</string>
+    <string name="y3">输入您的联系方式，方便客服联系</string>
+    <string name="z3">联系方式</string>
+    <string name="a4">笑脸矿业，是一家全球领先创新型云算力挖矿平台，专注国际主流新币的提早布局。
+例如：IPFS、GRIN、BEAM、AE，SKC、NSD、VTC、HYC等。
+
+平台致力于与工友们一起用算力投票，选择下一个千倍币，抢占新币红利先机。
+
+为了让用户享受非常具有竞争力的产品服务套餐和周期组合，笑脸矿业与知名矿机生产厂商及全球一流矿池达成深度合作，省去了用户购买、安装、托管矿机的复杂流程，通过手机下单、可达到一秒投产轻松挖矿的目的。
+
+笑脸矿业拥有一支由高学历、高技术、高素质的人才团队，创始团队作为国内首批从事区块链行业的意见领袖，见证了区块链在中国的快速发展。
+
+用户可登陆官方网站：www.Grinok.com 下载APP ，随时随地查看挖矿收益。</string>
+    <string name="b4">笑脸矿业</string>
+    <string name="c4">1.1.8版本</string>
+    <string name="d4">1、分享您的二维码海报，您的朋友通过您的二维码扫描注册成功，则邀请成功；</string>
+    <string name="e4">2、分享佣金：您可以获得被邀请人实际购买云算力金额的10%作为奖励；</string>
+    <string name="f4">3、算力佣金：您可以获得被邀请人实际云算力挖矿币种所得币数的7%作为奖励；</string>
+    <string name="g4">4、二级奖励：您可以获得二级分享佣金的5%和二级挖矿币种所得币数的3%作为奖励。</string>
+    <string name="h4">我的好友</string>
+    <string name="i4">推荐人</string>
+    <string name="j4">挖币返佣</string>
+    <string name="k4">金额（元）</string>
+    <string name="l4">状态</string>
+    <string name="m4">到账银行卡</string>
+    <string name="n4">提现金额</string>
+    <string name="o4">数量（GRIN）</string>
+    <string name="p4">GRIN云矿机介绍</string>
+    <string name="q4">Grin致力于提供隐私、可扩展性的加密货币，其有几个独特的属性：使用名为MimbleWimble隐私保护区块链格式；只在区块链中存储少量数据，运行完整节点既便宜又容易；Mimblewimble由匿名人士开发，团队分布在世界各地；没有任何预挖的PoW机制，更平等和去中心化。 Grin是一个社区驱动的项...</string>
+    <string name="r4">GRIN</string>
+
+    <!--钱包-->
+    <string name="s4">充值记录</string>
+    <string name="t4">提币地址</string>
+    <string name="u4">输入或者长按粘贴地址</string>
+    <string name="v4">GRIN | 全部</string>
+    <string name="w4">温馨提示：</string>
+    <string name="x4">请输入您正确的提币地址，确认无误后方可点确认提币。如提币地址错误将无法到账。</string>
+    <string name="y4">确认提币</string>
+    <string name="z4">手续费</string>
+    <string name="a5">充值</string>
+    <string name="b5">保存二维码</string>
+    <string name="c5">复制地址</string>
+    <string name="d5">钱包</string>
+    <string name="e5">总资产折合(BTC)</string>
+    <string name="f5">可用:</string>
+    <string name="g5">冻结:</string>
+
+
+    <!--矿池-->
+    <string name="h5">GRIN介绍</string>
+    <string name="i5">挖矿地址</string>
+    <string name="j5">美国服务器</string>
+    <string name="k5">全网算力</string>
+    <string name="l5">当前难度</string>
+    <string name="m5">币价</string>
+    <string name="n5">每gps日收益</string>
+    <string name="o5">昨天收益</string>
+    <string name="p5">本周收益</string>
+    <string name="q5">本月收益</string>
+    <string name="r5">当前算力</string>
+    <string name="s5">在线</string>
+    <string name="t5">全部</string>
+    <string name="u5">购买</string>
+    <string name="v5">提高算力</string>
+    <!--算力-->
+    <string name="w5">购买</string>
+    <string name="x5">理论收益率</string>
+    <string name="y5">日理论产量</string>
+    <string name="z5">剩余数量</string>
+    <string name="a6">点击购买表示您已阅读并同意《</string>
+    <string name="b6">云算力租赁服务协议》</string>
+    <string name="c6">》</string>
+    <string name="d6">挖矿收益</string>
+    <string name="e6">算力</string>
+    <string name="f6">已购算力</string>
+    <string name="g6">状态</string>
+    <string name="h6">算力大小：</string>
+    <string name="i6">挖币时间：</string>
+    <string name="j6">理论收益率：</string>
+    <string name="k6">到期时间：</string>
+    <string name="l6"> 理论总产量：</string>
+    <string name="m6"> 理论日产量：</string>
+    <string name="n6"> 算力状态</string>
+    <string name="o6"> 已购买数量</string>
+
+    <string name="p6"> 订单号</string>
+    <string name="q6"> 实付金额</string>
+    <string name="r6"> 收款人</string>
+    <string name="s6"> 银行名称</string>
+    <string name="t6"> 账号</string>
+    <string name="u6"> 付款人账户</string>
+    <string name="v6"> 已付款</string>
+    <string name="w6"> 取消</string>
+
+    <string name="x6">支付</string>
+    <string name="y6">扫码付款</string>
+    <string name="z6">实付：</string>
+    <string name="a7">复制钱包地址</string>
+    <string name="b7">微信支付</string>
+    <string name="c7">支付宝支付</string>
+    <string name="d7">银行卡支付</string>
+    <string name="e7">比特币支付</string>
+    <string name="f7">请充值</string>
+    <string name="g7">立即支付</string>
+    <string name="h7">使用红包</string>
+    <string name="i7">GRIN-29 算力</string>
+    <string name="j7">矿池介绍</string>
+
+    <string name="k7">算力价格</string>
+    <string name="l7">参考年收益</string>
+    <string name="m7">预计日产出</string>
+    <string name="n7">算力大小：</string>
+    <string name="o7">剩余数量：</string>
+    <string name="p7">挖币时间：</string>
+    <string name="q7">数字货币挖矿我们经常提到的一个词就是矿机的算力，比如：蚂蚁矿机S9算力13.5T， 蚂蚁矿机L3+ 504M。那究竟算力是什么意思呢？ 算力代表了什么？算力单位是怎么定义的呢？
+其实算力的意思很简单，他就是代表矿机的计算能力、计算性能的衡量，他具体代表的是每秒矿机的整体hash算法运算次数。我们先要知道挖矿的本质就是解决一个数学计算，谁先算出来谁就获得奖励（币），这个数学计算方式也很简单，就是一直不断的尝试碰撞结果。
+
+就类似于你暴力破解一个手机密码，（假设尝试多次手机不会被锁），你不断的尝试密码从 111111 ~ 99999 一个一个的尝试直到你解锁成功。如果你1秒内能尝试一次，你的算力就是 1次/秒， 1秒内能尝试两次，你的算力就是 2次/秒 。你1秒内尝试的次数越多你的算力就越大，你解锁的时间也就越短。
+矿机也是一样，矿机1秒内能计算的hash算法次数越多算力越大，挖的币越多。最开始比特币使用CPU挖矿，后来使用显卡GPU挖矿，到现在的使用ASIC专业定制芯片挖矿，计算速度一直不断提升。
+
+算力单位有哪些？
+算力每隔千位划为一个单位，最小单位是 H=1次、1000H = 1K 、1000K = 1G 、1000G = 1T、1000T = 1P、1000P=1E。蚂蚁矿机S9-13.5T等于13500G 或者 0.0135P。
+比特币全网算力现在是44.31EH/s 相当于328万台S9的算力。
+不同币种的算力，挖矿算法可能会不一样。比如比特币是sha256算法，GRIN是Cuckaroo29和31算法，以太坊是Ethash算法，AE阿姨币是Cuckoo_Cycle算法。这就像手机A的密码4位随便输入，手机B的密码6位，输一次后隔1s才能再次输入，实际比这个要复杂的多，解锁这两种不同的手机的方式是不一样的，那我尝试解锁的速度也不一样，解锁手机A我会更快一点。不用的币种之间的算力 是没有任何关系的，比特币矿机是不能挖莱特，因为算法不一样，他不会解莱特币的题。</string>
+    <string name="r7">算力大小</string>
+    <string name="s7">收益</string>
+
+    <string name="t7">充值</string>
+    <string name="u7">提现</string>
+    <string name="v7">取消</string>
+    <string name="w7">第一步：选择自己喜欢的海报，然后下到在手机相册。</string>
+    <string name="x7">第二步：将下载好的海报分享到朋友圈、QQ、微博、论坛</string>
+    <string name="y7">分享专属海报</string>
+    <string name="z7">下载</string>
+    <string name="a8">可用</string>
+    <string name="b8">输入或者长按粘贴数量</string>
+    <string name="c8">BEAM 算力</string>
+    <string name="d8">发布时间：</string>
+</resources>

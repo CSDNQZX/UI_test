@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.mining.mine.PosterImageActivity">
+
+    <!--设置标题-->
+    <include layout="@layout/layout_head_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x25"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/button_style_green_corners"
+                android:text="已选择"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/blue_b"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/w7"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginTop="@dimen/x10"
+            android:textColor="@color/lightSlateGray"
+            android:gravity="left|center"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/x7"
+            android:gravity="left|center"
+            android:layout_marginLeft="@dimen/x20"
+            android:textColor="@color/lightSlateGray"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+    <!--提现-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/y20"
+        android:background="@color/blue_b"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_login_ok"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y30"
+            android:layout_marginBottom="@dimen/x20"
+            android:layout_marginLeft="@dimen/x35"
+            android:layout_marginRight="@dimen/x35"
+            android:background="@drawable/button_style_blue_corners_c"
+            android:text="@string/z7"
+            android:textColor="@color/title_blue"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

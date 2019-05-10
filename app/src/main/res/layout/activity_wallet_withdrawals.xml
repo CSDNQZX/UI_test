@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.mining.wallet.WalletWithdrawalsActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--标题-->
+            <include layout="@layout/layout_head_text" />
+            <!---笑脸-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/y38"
+                android:layout_marginLeft="@dimen/x15"
+                android:layout_marginRight="@dimen/x15"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true">
+                    <ImageView
+                        android:id="@+id/imgae_type_id"
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center|left"
+                        android:src="@mipmap/u26" />
+                    <TextView
+                        android:id="@+id/imgae_text_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:drawableBottom="@mipmap/u187"
+                        android:gravity="center|left"
+                        android:paddingLeft="@dimen/x10"
+                        android:text="@string/a8"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true">
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@mipmap/ic_right" />
+                </LinearLayout>
+            </RelativeLayout>
+            <!--可用-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x25"
+                android:layout_marginTop="@dimen/x25"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableBottom="@mipmap/u187"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/x10"
+                    android:text="@string/a8"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+                <TextView
+                    android:id="@+id/has_number_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableBottom="@mipmap/u187"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/x10"
+                    android:text="0.00000000 GRIN"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--提币地址-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginTop="@dimen/x10"
+                    android:gravity="center|left"
+                    android:text="@string/t4"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--输入或者长按粘贴地址-->
+          <!--  android:focusable="true"
+            android:focusableInTouchMode="true"-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y38"
+                android:background="@drawable/layout_border_gray_bottom">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@null"
+                    android:hint="@string/u4"
+                    android:textColorHint="@color/lightSlateGray"
+                    android:textSize="14dp" />
+                <ImageView
+                    android:layout_width="@dimen/x30"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/x15"
+                    android:gravity="center"
+                    android:src="@mipmap/ew_code" />
+            </RelativeLayout>
+            <!--数量-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginTop="@dimen/x10"
+                    android:gravity="center|left"
+                    android:text="@string/u2"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--输入或者长按粘贴地址-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y38"
+                android:background="@drawable/layout_border_gray_bottom">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@null"
+                    android:hint="@string/b8"
+                    android:textColorHint="@color/lightSlateGray"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/x15"
+                    android:gravity="center"
+                    android:src="@mipmap/ew_code"
+                    android:textColor="@color/lightSlateGray"
+                    android:text="@string/v4"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+            <!--手续费-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginTop="@dimen/x10"
+                    android:gravity="center|left"
+                    android:text="@string/z4"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--手续费值-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y38"
+                android:background="@drawable/layout_border_gray_bottom">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@null"
+                    android:hint="0.0005"
+                    android:textColorHint="@color/white"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="@dimen/x30"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/x15"
+                    android:gravity="center"
+                    android:src="@mipmap/ew_code"
+                    android:text="@string/r4"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+            <!--温馨提示-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginTop="@dimen/x10"
+                    android:gravity="center|left"
+                    android:text="@string/w4"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:gravity="center|left"
+                    android:text="@string/x4"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--确认提币-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/y20">
+                <Button
+                    android:id="@+id/btn_login_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y30"
+                    android:layout_marginBottom="@dimen/x40"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginRight="@dimen/x15"
+                    android:background="@drawable/button_style_blue_corners"
+                    android:text="@string/y4"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

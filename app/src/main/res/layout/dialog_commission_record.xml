@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/u185"
+            android:layout_marginRight="@dimen/x20"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style_gray_corners_a"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/x30"
+        android:paddingBottom="@dimen/x30"
+        android:paddingLeft="@dimen/x25"
+        android:paddingRight="@dimen/x25"
+        >
+        <!--
+numColumns:每一行显示多少列
+horizontalSpacing:两列之间的间距
+verticalspacing:两行之间的间距
+-->
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="@dimen/x10"
+            android:numColumns="4"
+            android:verticalSpacing="@dimen/x10"></GridView>
+    </LinearLayout>
+</LinearLayout>

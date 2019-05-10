@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/blue_b"
+    android:layout_height="@dimen/y38">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@null"
+        >
+        <LinearLayout
+            android:id="@+id/news_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:layout_margin="@dimen/y9"
+            android:background="@mipmap/u1220"
+            >
+            <ImageView
+                android:layout_margin="@dimen/y6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/u1221"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:id="@+id/save_set"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/y9"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/u1222"
+                android:minWidth="@dimen/x18"
+                android:minHeight="@dimen/y18"
+                android:layout_gravity="right"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

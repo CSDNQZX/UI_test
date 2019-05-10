@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.mining.mine.RecordWithdrawActivity">
+    <!--标题-->
+    <include layout="@layout/layout_head_title"></include>
+    <!--上拉刷新-->
+    <include layout="@layout/layout_head_loadmore"/>
+    <!--适配列表-->
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:divider="#A9A9A9"
+        android:dividerHeight="1dp">
+    </ListView>
+</LinearLayout>

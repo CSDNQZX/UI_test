@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y38"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/ic_reback"
+        android:layout_width="@dimen/x40"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_back"
+        android:layout_gravity="left"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x5"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/n2"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style_blue_corners_a"
+                />
+
+            <Button
+                android:id="@+id/btn_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/e2"
+                android:textColor="@color/title_blue"
+                android:background="@drawable/button_style_white_corners_b"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

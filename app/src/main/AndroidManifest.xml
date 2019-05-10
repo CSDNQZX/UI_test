@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.mining">
+
+
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--开启wifi-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/u2401"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        >
+        <!-- <activity android:name="com.mining.mine.NewsDetailsActivity"> -->
+        <!--
+        <activity android:name="com.mining.mine.SecuritySettingActivity">
+        <activity android:nacom.mining.power.CalculationPowerFragmentvity">
+        -->
+        <activity android:name="com.mining.Login.LoginActivity">
+
+            <!-- <activity android:name="com.mining.MainActivity"> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mining.Login.RegisterNextActivity" />
+        <activity android:name="com.mining.Login.RegisterActivity" />
+        <activity android:name="com.mining.Login.ForgetPwdActivity" />
+        <activity android:name="com.mining.Login.SendVerificationActivity" />
+        <!-- 主界面 -->
+        <activity android:name="com.mining.MainActivity" />
+        <!-- 消息中心 -->
+        <activity android:name="com.mining.mine.NewsCenterActivity" />
+        <activity android:name="com.mining.mine.NewsDetailsActivity" />
+        <!-- 安全设置 -->
+        <activity android:name="com.mining.mine.SecuritySettingActivity" />
+
+        <!-- 个人中心 -->
+        <activity android:name="com.mining.mine.PersonCenterActivity" />
+
+        <!-- 修改密码 -->
+        <activity android:name="com.mining.mine.UpdatePasswordActivity" />
+
+        <!-- 修改手机号码 -->
+        <activity android:name="com.mining.mine.UpdateMobileActivity" />
+        <!-- 实名认证 -->
+        <activity android:name="com.mining.mine.CertificationActivity" />
+
+        <!-- 收款方式 -->
+        <activity android:name="com.mining.mine.PaymentMethodActivity" />
+
+        <!-- 银行卡 -->
+        <activity android:name="com.mining.mine.BankCardActivity" />
+
+        <!-- 支付宝 -->
+        <activity android:name="com.mining.mine.AlipayActivity" />
+
+        <!-- 选择银行 -->
+        <activity android:name="com.mining.mine.ChoiceBankActivity" />
+        <!-- 微信 -->
+        <activity android:name="com.mining.mine.WeixinActivity" />
+
+        <!-- 红包 -->
+        <activity android:name="com.mining.mine.RedEnvelopesActivity" />
+
+        <!-- 提交工单 -->
+        <activity android:name="com.mining.mine.SubmitWorkActivity" />
+
+        <!-- 工单 -->
+        <activity android:name="com.mining.mine.WorkOrderActivity" />
+
+        <!-- 关于我们 -->
+        <activity android:name="com.mining.mine.AboutUsActivity" />
+
+        <!-- 邀请返佣 -->
+        <activity android:name="com.mining.mine.InvitationReturnActivity" />
+
+        <!-- 佣金记录 -->
+        <activity android:name="com.mining.mine.CommissionRecordActivity" />
+
+        <!-- 提币记录 -->
+        <activity android:name="com.mining.mine.RecordWithdrawActivity" />
+
+        <!-- 提现 -->
+        <activity android:name="com.mining.mine.CashWithdrawalActivity" />
+
+        <!-- 划转记录 -->
+        <activity android:name="com.mining.mine.TransferRecordActivity" />
+
+        <!-- 划转 -->
+        <activity android:name="com.mining.mine.TransferActivity" />
+
+        <!-- 矿机介绍 -->
+        <activity android:name="com.mining.orepool.IntroductionMachineActivity" />
+
+        <!-- 币种介绍 -->
+        <activity android:name="com.mining.orepool.CurrencyIntroductionActivity" />
+        <!-- 提币记录 -->
+        <activity android:name="com.mining.wallet.WithdrawalsRecordActivity" />
+
+        <!-- 充值记录 -->
+        <activity android:name="com.mining.wallet.RechargeRecordActivity" />
+
+        <!-- 钱包提现 -->
+        <activity
+            android:name="com.mining.wallet.WalletWithdrawalsActivity"
+            android:windowSoftInputMode="stateHidden" /> <!-- windowSoftInputMode   为失去焦点事件 -->
+
+
+        <!-- 充值 -->
+        <activity android:name="com.mining.wallet.RechargeActivity" />
+
+        <!-- 钱包 -->
+        <!-- <activity android:name="com.mining.wallet.WalletActivity" /> -->
+
+
+        <!-- 矿池介绍 -->
+        <activity android:name="com.mining.orepool.IntroductionOrepondActivity" />
+
+        <!-- 矿池 -->
+        <!-- <activity android:name="com.mining.orepool.OrepoolActivity" /> -->
+
+
+        <!-- 详细购买 -->
+        <activity android:name="com.mining.power.DetailedPurchaseActivity" />
+
+        <!-- 已购算力 -->
+        <activity android:name="com.mining.mine.PurchaseHistoryActivity" />
+
+        <!-- 已购买详细 -->
+        <activity android:name="com.mining.power.PurchasedDetailsActivity" />
+
+        <!-- 银行卡支付 -->
+        <activity android:name="com.mining.power.BankCardPaymentActivity" />
+
+        <!-- 支付 -->
+        <activity android:name="com.mining.power.PaymentActivity" />
+
+        <!-- btc支付 -->
+        <activity android:name="com.mining.power.BTCPaymentActivity" />
+
+        <!-- 付款 -->
+        <activity android:name="com.mining.power.PayActivity" />
+
+        <!--
+        算力
+        <activity android:nacom.mining.power.CalculationPowerFragmentvity" />
+        -->
+        <!-- 名字解释 -->
+        <activity android:name="com.mining.power.NounTranslationActivity" />
+        <!-- 挖矿收益 -->
+        <activity android:name="com.mining.mine.MiningProfitActivity" />
+        <!-- 详细购买2 -->
+        <activity android:name="com.mining.power.ConfirmPurchaseActivity" />
+        <!--分享专属海报-->
+        <activity android:name="com.mining.mine.PosterImageActivity"></activity>
+    </application>
+
+</manifest>

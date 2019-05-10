@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.mining.power.PurchasedDetailsActivity">
+
+            <!--设置标题-->
+            <include layout="@layout/layout_head_title"/>
+            <!--图片轮播-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y150">
+                <!--存放图片的ViewPager-->
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x50"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="@dimen/x10">
+                    <!--存放小圆点的容器-->
+                    <LinearLayout
+                        android:id="@+id/ll_point_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/x15"
+                        android:orientation="horizontal" />
+                </LinearLayout>
+            </RelativeLayout>
+            <!--基础信息-->
+            <!--修改登录密码-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_b"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="GRIN-29-180天"
+                    android:layout_marginTop="@dimen/x15"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginBottom="@dimen/x15"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <!--实名验证-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_b"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="@string/n6"
+                    android:textColor="@color/lightSlateGray"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="挖矿中"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_gravity="center|right"
+                    android:textColor="@color/c_blue"
+                    android:textSize="18dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:maxHeight="@dimen/y6"
+                    android:maxWidth="@dimen/y6"
+                    android:visibility="invisible"
+                    android:src="@mipmap/ic_right" />
+            </LinearLayout>
+            <!--实名验证-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_b"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:text="@string/o6"
+                    android:textColor="@color/lightSlateGray"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20 / 份"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:layout_gravity="center|right"
+                    android:textColor="@color/c_blue"
+                    android:textSize="16dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:maxHeight="@dimen/y6"
+                    android:maxWidth="@dimen/y6"
+                    android:src="@mipmap/ic_right"
+                    android:visibility="invisible" />
+            </LinearLayout>
+            <!--显示数据-->
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/x15"
+                android:layout_weight="1"
+                android:numColumns="3" />
+</LinearLayout>

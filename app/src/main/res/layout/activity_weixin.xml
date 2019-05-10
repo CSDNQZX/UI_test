@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.mining.mine.WeixinActivity">
+
+    <!--引入标题-->
+    <include layout="@layout/layout_head_title"/>
+
+    <!--请输入微信账号-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_b"
+        android:layout_marginBottom="@dimen/x2"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/x15"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@null"
+            android:textColorHint="@color/lightSlateGray"
+            android:textColor="@color/lightSlateGray"
+            android:hint="@string/v"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <!--请上传微信收款账号-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/y15"
+        android:layout_marginLeft="@dimen/x25"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_marginBottom="@dimen/x10"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/w"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/u1654"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/y6"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="20dp"
+                android:textColor="@color/c_blue"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

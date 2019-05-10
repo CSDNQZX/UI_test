@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.mining.mine.BankCardActivity">
+
+    <!--标题栏-->
+    <include layout="@layout/layout_head_text"/>
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y38"
+        android:background="@null"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/ic_reback"
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_back"
+            />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/l"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/add_btn"
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/p"
+            android:gravity="center"
+            android:textColor="@color/c_blue"
+            android:visibility="visible"
+            />
+    </RelativeLayout>-->
+
+    <!--请输入持卡人姓名-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_b"
+        android:layout_marginBottom="@dimen/x2"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/x15"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@null"
+            android:textColorHint="@color/lightSlateGray"
+            android:textColor="@color/lightSlateGray"
+            android:hint="@string/m"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <!--请输入银行卡卡号-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_b"
+        android:layout_marginBottom="@dimen/x2"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/x15"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@null"
+            android:textColorHint="@color/lightSlateGray"
+            android:textColor="@color/lightSlateGray"
+            android:hint="@string/n"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <!--银行卡开户行-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_b"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/x15"
+                    android:layout_marginBottom="@dimen/x15"
+                    android:layout_marginLeft="@dimen/x25"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="@string/o"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/choose_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/q"
+                        android:tag="1"
+                        android:textColorHint="@color/lightSlateGray"
+                        android:textColor="@color/lightSlateGray"
+                        android:layout_gravity="center|right"
+                        android:textSize="14dp"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center"
+                        android:maxHeight="@dimen/y6"
+                        android:maxWidth="@dimen/y6"
+                        android:src="@mipmap/ic_right" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

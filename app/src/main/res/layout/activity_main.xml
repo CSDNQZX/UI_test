@@ -1,0 +1,131 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/view_page_fragemnts"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!-- 底部导航栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y40"
+        android:orientation="horizontal"
+        android:background="@color/brown"
+        >
+        <RelativeLayout
+            android:id="@+id/mian_home_rela"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:tag="0"
+            >
+            <ImageView
+                android:id="@+id/mian_home_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/x20"
+                android:minHeight="@dimen/y20"
+                android:src="@mipmap/default_menu"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tv_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/y3"
+                android:text="@string/main_a"
+                android:textColor="@color/lightSlateGray"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/mian_add_rela"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:tag="2"
+            >
+            <ImageView
+                android:id="@+id/mian_home_image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/x20"
+                android:minHeight="@dimen/y20"
+                android:src="@mipmap/default_menu"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tv_home1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/y3"
+                android:text="@string/main_b"
+                android:textColor="@color/lightSlateGray"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/mian_message_rela"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:tag="3"
+            >
+            <ImageView
+                android:id="@+id/mian_home_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/x20"
+                android:minHeight="@dimen/y20"
+                android:src="@mipmap/default_menu"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tv_home2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/y3"
+                android:text="@string/main_c"
+                android:textColor="@color/lightSlateGray"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/mian_me_rela"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:tag="4"
+            >
+            <ImageView
+                android:id="@+id/mian_home_image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/x20"
+                android:minHeight="@dimen/y20"
+                android:src="@mipmap/display_menu"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tv_home3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/y3"
+                android:text="@string/main_d"
+                android:textColor="@color/lightSlateGray"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
